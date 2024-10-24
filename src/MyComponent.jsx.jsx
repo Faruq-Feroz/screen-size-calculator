@@ -43,8 +43,7 @@ function MyComponent() {
         <h1>Screen Size Calculator</h1>
         <p>Window Width: {width}px</p>
         <p>Window Height: {height}px</p>
-        <p>Screen Diagonal: {diagonal}px</p>
-        <p>Aspect Ratio: {aspectRatio}</p>
+        
         <button onClick={copyToClipboard}>Copy Screen Info</button>
       </div>
     </>
